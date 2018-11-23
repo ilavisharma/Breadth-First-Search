@@ -43,10 +43,8 @@ function setup() {
 
     function bfs() {
         graph.reset();
-        // var start= graph.setStart('Kevin Bacon');
         var start = graph.setStart(dropdown.value());
         var end = graph.setEnd('Kevin Bacon');
-        // console.log(graph);
 
         // ----------BREADTH FIRST SEARCH STARTS HERE----------
         var queue = [];
@@ -86,8 +84,6 @@ function setup() {
                 text += ' ==> '
         }
         createP(text);
-        // console.log(text);
-        // console.log(path);
     }
 
 }
