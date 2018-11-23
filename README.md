@@ -36,7 +36,7 @@ The follwing code was implemented using the **p5.js** javascript library
 
 ```javascript
 function bfs() {
-        var start = graph.setStart(dropdown.value()); //select the starting point from the gropdown list
+        var start = graph.setStart(dropdown.value()); //select the starting point from the dropdown list
         var end = graph.setEnd('Kevin Bacon');   // can be any actor
 
         // ----------BREADTH FIRST SEARCH STARTS HERE----------
